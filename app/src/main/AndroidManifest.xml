@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.fourezshopping">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".NavigationHome.NavigationHome"
+            android:label="@string/title_activity_navigation_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Categories.Mens.MensCategory"
+            android:parentActivityName=".NavigationHome.NavigationHome"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".Categories.Womens.WomensCategory"
+            android:parentActivityName=".NavigationHome.NavigationHome"
+            android:screenOrientation="portrait"
+            android:theme="@style/Women" />
+        <activity
+            android:name=".Categories.Electronics.ElectronicsCategory"
+            android:parentActivityName=".NavigationHome.NavigationHome"
+            android:screenOrientation="portrait"
+            android:theme="@style/electronics" />
+
+        <activity
+            android:name=".Categories.Kids.KidsCategory"
+            android:parentActivityName=".NavigationHome.NavigationHome"
+            android:screenOrientation="portrait"
+            android:theme="@style/kids" />
+
+        <activity
+            android:name=".Adapter.Activity_Intermediate"
+            android:parentActivityName=".Categories.Kids.KidsCategory"
+            android:screenOrientation="portrait"
+            android:theme="@style/kids" />
+
+        <activity
+            android:name=".Categories.Model.SqliteItemList"
+            android:parentActivityName=".Categories.Kids.KidsCategory"
+            android:screenOrientation="portrait"
+            android:theme="@style/kids" />
+
+        <activity
+            android:name=".Categories.HomeAppliances.HomeAppliancesCategory"
+            android:parentActivityName=".Categories.Kids.KidsCategory"
+            android:screenOrientation="portrait"
+            android:theme="@style/homeAppliances" />
+
+        <activity
+            android:name=".Categories.Electronics.Activity_Electronics"
+            android:parentActivityName=".Categories.Electronics.ElectronicsCategory"
+            android:screenOrientation="portrait"
+            android:theme="@style/homeAppliances" />
+
+        <activity
+            android:name=".MyCart"
+            android:parentActivityName=".NavigationHome.NavigationHome"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".Adapter.SwipeImages"
+            android:parentActivityName=".Adapter.Activity_Intermediate"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+
+    </application>
+
+</manifest>

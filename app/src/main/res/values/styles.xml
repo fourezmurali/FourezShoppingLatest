@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">@color/menscategoryActionBar</item>
+        <item name="colorPrimaryDark">@color/menscategoryActionBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Women" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">@color/womenscategoryActionBar</item>
+        <item name="colorPrimaryDark">@color/womenscategoryActionBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="kids" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">@color/kidscategoryActionBar</item>
+        <item name="colorPrimaryDark">@color/kidscategoryActionBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="homeAppliances" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">@color/homeAppliances</item>
+        <item name="colorPrimaryDark">@color/homeAppliances</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="electronics" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">@color/electricals</item>
+        <item name="colorPrimaryDark">@color/electricals</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
