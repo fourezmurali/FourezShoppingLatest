@@ -11,7 +11,6 @@ import android.widget.Button;
 
 import com.example.hp.fourezshopping.NavigationHome.NavigationHome;
 
-//testingMurali
 public class MainActivity extends Activity {
     Button signin;
 
